@@ -1,57 +1,57 @@
 <!DOCTYPE html>
-<html lang="ro">
+<html lang="="ro">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SmartPath Factory</title>
+    <title>SmartPath AI</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
-            background-color: #f3f4f6;
-            color: #111827;
+            font-family: 'Segoe UI', sans-serif;
+            margin: 0;
+            background: linear-gradient(120deg, #3f87a6, #ebf8e1, #f69d3c);
+            background-size: 400% 400%;
+            animation: gradientBG 15s ease infinite;
+            color: #fff;
             text-align: center;
-            padding: 40px;
         }
         header {
-            margin-bottom: 40px;
+            background-color: #005f73;
+            padding: 20px;
         }
-        h1 {
-            font-size: 3em;
-            color: #2563eb;
-        }
-        p {
-            font-size: 1.2em;
-        }
-        a.button {
-            display: inline-block;
-            margin-top: 20px;
-            padding: 12px 24px;
-            background-color: #2563eb;
+        header a {
             color: white;
+            margin: 0 15px;
             text-decoration: none;
-            border-radius: 6px;
+            font-weight: bold;
+        }
+        main {
+            padding: 100px 20px;
         }
         footer {
-            margin-top: 60px;
-            font-size: 0.9em;
-            color: #6b7280;
+            background-color: #023047;
+            color: white;
+            padding: 20px;
+            font-size: 14px;
+        }
+        @keyframes gradientBG {
+            0% {background-position: 0% 50%;}
+            50% {background-position: 100% 50%;}
+            100% {background-position: 0% 50%;}
         }
     </style>
 </head>
 <body>
     <header>
-        <h1>🚀 SmartPath Factory</h1>
-        <p>Bine ai venit în centrul automatizat de producție digitală al platformei SmartPath!</p>
-        <a class="button" href="/dashboard">Deschide Dashboard</a>
+        <a href="index.html">Acasă</a>
+        <a href="terms.html">Termeni și Condiții</a>
+        <a href="privacy.html">Confidențialitate</a>
     </header>
-
-    <section>
-        <h2>🔧 Funcționalități principale</h2>
-        <p>Gestionare automată a echipelor, generare de conținut AI, rapoarte live și integrare cu social media.</p>
-    </section>
-
+    <main>
+        <h1>Bine ai venit!</h1>
+        <p>Acesta este site-ul tău public pe GitHub Pages. Platforma SmartPath AI este în dezvoltare. Rămâi aproape pentru lansare!</p>
+    </main>
     <footer>
-        &copy; 2025 SmartPath. Toate drepturile rezervate.
+        © 2025 SmartPath AI. Toate drepturile rezervate. | <a href="privacy.html" style="color:white;">Politica de Confidențialitate</a>
     </footer>
 </body>
 </html>
